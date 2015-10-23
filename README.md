@@ -1,17 +1,17 @@
 Deci:
 
-Pasii pentru creearea aplicatiei
+Create sample favorite songs meteor application
 
-1. intr-un director : "meteor create topSongsApp"
+1. a certain directory : "meteor create topSongsApp"
 
-2. creere pe git a unui repository (al nostru va fi : https://github.com/ATud/topSongsApp.git)
+2. create a new git repository (ours is : https://github.com/ATud/topSongsApp.git)
 
-3. din folderul topSongsApp, incercam sa legam aplicatia noastra goala, de repositoryul pe care tocmai l-am creat.
+3. from folder topSongsApp, we try to connect to the repository.
 
 	- git init
-	- git add . (adauga toate fisierele noastre)
-	- git commit -m "Mesajul nostru"
-	- git remote add origin https://github.com/ATud/topSongsApp.git (legam git-ul nostru local de un repository remote)
-	- git push origin master -  facem push la noile noastre fisiere adaugate si comise, in masterul repositoryului nostru ( sau ce bransa facem noi)
+	- git add . (add all files)
+	- git commit -m "Our message"
+	- git remote add origin https://github.com/ATud/topSongsApp.git (actual connect the git to the origin)
+	- git push origin master -  push all changes
 
-4. folosirea Mongo Collection
+4. using Mongo Collection, boostrap modal, and Session object
