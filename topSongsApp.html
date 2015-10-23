@@ -3,15 +3,17 @@
 </head>
 
 <body>
+{{> modalTpl}}
 <div class="container">
-    <div class="col-md-6">
+    <div class="col-md-4">
         <h1>Artist List </h1>
         {{> artistList}}
         {{> insertArtist}}
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
         <h1>Song List </h1>
-
+        {{> songList}}
+        {{> insertSong}}
     </div>
 </div>
 

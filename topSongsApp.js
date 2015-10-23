@@ -1,4 +1,5 @@
 Artists = new Mongo.Collection("artists");
+Songs = new Mongo.Collection("songs");
 if (Meteor.isClient) {
   //Template.body.helpers({
   //  artists: function () {

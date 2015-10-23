@@ -13,4 +13,5 @@ Pasii pentru creearea aplicatiei
 	- git commit -m "Mesajul nostru"
 	- git remote add origin https://github.com/ATud/topSongsApp.git (legam git-ul nostru local de un repository remote)
 	- git push origin master -  facem push la noile noastre fisiere adaugate si comise, in masterul repositoryului nostru ( sau ce bransa facem noi)
-	
+
+4. folosirea Mongo Collection

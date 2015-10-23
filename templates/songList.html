@@ -1,0 +1,26 @@
+<template name="songList">
+    <table class="table table-striped">
+        <thead>
+        <th>
+            Name
+        </th>
+        <th >
+            Owner
+        </th>
+        <th >
+            Youtube Link
+        </th>
+        <th >
+            Like
+        </th>
+        <th class="text/center">
+            Remove
+        </th>
+        </thead>
+        <tbody>
+        {{#each songs}}
+            {{> song}}
+        {{/each}}
+        </tbody>
+    </table>
+</template>
