@@ -1,0 +1,24 @@
+<template name="song">
+    <tr>
+        <td class="col-md-2">
+            <span class="name">{{name}}</span>
+        </td>
+        <td class="col-md-2">
+            <span class="artist">{{artistId}}</span>
+        </td>
+        <td class="col-md-8">
+            <span class="url" style="text-decoration: underline;color:darkblue; cursor: pointer" data-url="{{urlYoutube}}" data-toggle="modal" data-target="#myModal">
+                {{urlYoutube}}
+            </span>
+        </td>
+        <td class="col-md-2">
+            <button class="btn btn-info" style="font-weight: bold;">
+                <i class="glyphicon glyphicon-thumbs-up"></i>
+                <span style="margin: -2px 5px;">{{likes}}</span>
+            </button>
+        </td>
+        <td class="col-md-1 text-center">
+            <span class="remove btn btn-danger"> X </span>
+        </td>
+    </tr>
+</template>
