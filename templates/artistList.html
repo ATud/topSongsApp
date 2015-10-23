@@ -1,0 +1,17 @@
+<template name="artistList">
+    <table class="table table-striped">
+        <thead>
+        <th>
+            Name
+        </th>
+        <th class="text-center">
+            Delete
+        </th>
+        </thead>
+        <tbody>
+        {{#each artists}}
+            {{> artist}}
+        {{/each}}
+        </tbody>
+    </table>
+</template>
