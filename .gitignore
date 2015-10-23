@@ -1,0 +1,35 @@
+# ignore our deploy directory, this is for gradle integration
+deploy/
+
+# ignore the compiled directory
+compiled/
+
+# ignore tmp directory
+tmp/
+
+node_modules/
+npm-debug.log
+
+# ignore webstorm/intelli-j files
+.idea/
+ui.iml
+
+# igonore vim sessions
+.session
+
+# ignore eclipse folders
+.metadata/
+.project
+.classpath
+.settings/
+
+dev-server-mocks.json
+
+.DS_Store
+
+*.tar.gz
+
+# ignore compressed files
+*.tgz
+*.tar
+*.tar.gz
