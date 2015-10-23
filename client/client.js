@@ -52,6 +52,12 @@ Template.songList.events({
     }
 });
 
+Template.song.helpers({
+    artistName: function () {
+        return Artists.findOne({_id:this.artistId}).name;
+    }
+});
+
 Template.insertSong.helpers({
     artists: function () {
         return Artists.find({});
@@ -81,4 +87,3 @@ Template.modalTpl.events({
         Session.set('youtubeUrl', '');
     }
 });
-
