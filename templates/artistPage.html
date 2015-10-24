@@ -1,0 +1,23 @@
+<template name="artistPage">
+    <div class="container">
+        <h1> All song by user {{artist.name}}</h1>
+        <table class="table table-striped">
+            <thead>
+            <th >
+                Name
+            </th>
+            <th >
+                Youtube Link
+            </th>
+            <th >
+                Likes
+            </th>
+            </thead>
+            <tbody>
+            {{#each songs}}
+                {{> song}}
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</template>
