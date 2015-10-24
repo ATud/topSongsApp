@@ -24,6 +24,7 @@ Create sample favorite songs meteor application
 Extra info about the technologies: 
 
 1. Meteor creates a server - client webapp , that connects natively to a mongoDB database.
+- adding packets is done like this : meteor add 'user:package'
 
 2. The communication is mainly achived by using webworkers.
 
